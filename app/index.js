@@ -8,19 +8,19 @@ var HelloWorld = React.createClass({
   getLocation: function() {
     // TODO
     return {'lat': 0, 'long': 0};
-  };
+  },
 
   // getPlaces should return the place id's of restaurants within {radius} of our user
   getPlaces: function(location, radius) {
     // TODO
     return [1, 2, 3, 4, 5];
-  };
+  },
 
   // getDetails should return the details of a place
   getDetails: function(id) {
     // TODO
     return {'name': 'restaurant'};
-  };
+  },
 
   render: function() {
     var loc = getLocation();
