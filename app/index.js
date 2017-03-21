@@ -19,7 +19,7 @@ var Restaurants = React.createClass({
   },
 
   // getPlaces should return the place id's of restaurants within {radius} of our user
-  getRestaurants: function() {
+  getPlaces: function(location, radius) {
     // TODO
     this.setState({
       places: {
@@ -31,7 +31,7 @@ var Restaurants = React.createClass({
   },
 
   // getDetails should return the details of a place
-  getDetails: function() {
+  getDetails: function(ids) {
     // TODO
     this.setState({
       places: {
